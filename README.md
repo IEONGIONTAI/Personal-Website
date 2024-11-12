@@ -1,33 +1,16 @@
-# My Personal Website
+# 我的個人網站
 
-This is the repository for my personal website, hosted on GitHub Pages. The website is built using **React**, **Tailwind CSS**, and **React Router** for navigation. It includes sections like a resume, tools, and contact page.
+這是我的個人網站專案，托管於 GitHub Pages。網站使用 **React**、**Tailwind CSS** 和 **React Router** 建構，並包含如履歷、工具和聯絡頁面等內容。
 
-Visit the website here: [ieongiontai.github.io/my-website](https://ieongiontai.github.io/my-website)
+網站鏈接：[ieongiontai.github.io/my-website](https://ieongiontai.github.io/my-website)
 
-## Table of Contents
+## 專案概述
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [Folder Structure](#folder-structure)
+這個專案作為個人作品集網站，展示我的個人信息、履歷以及一些互動工具。網站透過 `react-router-dom` 進行頁面導覽，並配置 `basename` 來確保在 GitHub Pages 上的路由正常工作。
 
-## Project Overview
+## 功能
 
-This project serves as a personal portfolio, displaying information about myself, my resume, and a few interactive tools. The site is deployed on GitHub Pages using `react-router-dom` for page navigation with `BrowserRouter` and configured with a `basename` to ensure proper routing on GitHub Pages.
-
-## Features
-
-- **Responsive Design**: The website adapts to different screen sizes using Tailwind CSS.
-- **Multilingual Support**: Includes English and Chinese language options using `react-i18next`.
-- **Dark Mode**: Toggle between light and dark modes.
-- **Tools Section**: Includes interactive tools like a currency converter, personality quiz, and daily fortune generator.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/my-website.git
-   cd my-website
+- **響應式設計**：網站通過 Tailwind CSS 實現響應式設計，適配各種螢幕尺寸。
+- **多語言支持**：使用 `react-i18next` 支持中英雙語切換。
+- **深色模式**：提供深色和淺色模式切換。
+- **工具區域**：包含互動工具，例如匯率轉換器、個性測驗和每日運勢生成器。
